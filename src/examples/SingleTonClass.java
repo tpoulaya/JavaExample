@@ -13,10 +13,6 @@ public class SingleTonClass {
 	
 	private static SingleTonClass singleTonObj = null;
 	
-	/*static {
-		singleTonObj =  new SingleTonClass();
-	}*/
-	
 	private SingleTonClass() {
 		
 	}
